@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>환영합니다</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1 class="logo">My Site</h1>
+            <ul class="nav-links">
+                <li><a href="#home">홈</a></li>
+                <li><a href="#about">소개</a></li>
+                <li><a href="#contact">연락처</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <h2>안녕하세요! 👋</h2>
+            <p>간단한 웹사이트에 오신 것을 환영합니다</p>
+            <button class="cta-btn" id="greetBtn">인사하기</button>
+        </section>
+
+        <section id="about" class="about">
+            <h2>소개</h2>
+            <p>이것은 HTML, CSS, JavaScript로 만든 간단한 웹사이트입니다.</p>
+            <div class="card-container">
+                <div class="card">
+                    <span class="card-icon">📄</span>
+                    <h3>HTML</h3>
+                    <p>구조를 만듭니다</p>
+                </div>
+                <div class="card">
+                    <span class="card-icon">🎨</span>
+                    <h3>CSS</h3>
+                    <p>스타일을 적용합니다</p>
+                </div>
+                <div class="card">
+                    <span class="card-icon">⚡</span>
+                    <h3>JavaScript</h3>
+                    <p>상호작용을 추가합니다</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>연락처</h2>
+            <form id="contactForm">
+                <input type="text" id="name" placeholder="이름" required>
+                <input type="email" id="email" placeholder="이메일" required>
+                <textarea id="message" placeholder="메시지" rows="4"></textarea>
+                <button type="submit">보내기</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 간단한 웹사이트. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
